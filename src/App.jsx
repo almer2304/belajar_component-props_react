@@ -13,8 +13,11 @@ function Body() {
 
 function Feeds() {
   return (
-    <div style={{display: 'flex', justifyContent: 'center'}}>
-      <Feed />
+    <div style={{display: 'flex', justifyContent:'center'}}>
+      <div style={{flexDirection: 'column'}}>
+        <Feed />
+        <Feed />
+      </div>
     </div>
   );
 }
@@ -22,7 +25,7 @@ function Feeds() {
 function Feed() {
   return(
     <div style={{backgroundColor: 'grey' ,width: 100, display:'flex', justifyContent: 'center', height: 550, width: 450, alignItems: 'center', marginTop: 50}}>
-      <span>Hallo</span>
+      <span>contoh feeds</span>
     </div>
   );
 
